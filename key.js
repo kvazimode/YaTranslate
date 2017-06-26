@@ -1,3 +1,3 @@
 module.exports ={
-    key: "trnsl.1.1.20170208T091826Z.2b12b45d1707c977.49c22cd27970df9edf806033020d7590bc3bdf4f"
+    key: "use your key"
 }
