@@ -33,7 +33,7 @@ function onRequiest(request, response){
                 parsed = JSON.parse(raw)
                 console.log('> Translation is: ' + parsed.text)
                 response.writeHead(200, {"Content-Type": "text/html"})
-                response.write(data + '<p>Перевод таков: ' + parsed.text + '</p></html>')
+                response.write(data + '<p>Перевод таков: ' + parsed.text + '</p></body></html>')
                 response.end()
             })
         })
